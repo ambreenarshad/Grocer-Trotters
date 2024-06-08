@@ -1,0 +1,91 @@
+.coffee,.onion,.cocacola,.juice
+{
+border-radius:60px;
+font-size:10px;
+padding:20px;
+background-color:white;
+}
+body
+{
+ background-color: #B2D3C2;
+ font-family: "Calibri", Helvetica, sans-serif;
+}
+h1
+{
+font-family: "Calibri", Helvetica, sans-serif;
+color:#2c3e50;
+}
+.onion:hover
+{
+color:white;
+background-color:#989898;
+}
+.coffee:hover
+{
+color:white;
+background-color:#989898;
+}
+.juice:hover
+{
+color:white;
+background-color:#989898;
+}
+.cocacola:hover
+{
+color:white;
+background-color:#989898;
+}
+.btn
+{
+position:relative;
+
+}
+.btn:hover
+{
+colour:white;
+}
+
+.btn-nav .button {
+  background-color: #34495e; 
+  border: 0px solid green;
+  color: white;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.btn-nav .button:hover {
+  background-color: #22303d;
+}
+
+footer{
+position:absolute;
+left:0;
+width:1348px;
+height:100px;
+background-color:#34495e;
+}
+
+.social{
+float:right;
+}
+
+.logo{
+position:absolute;
+left:40px;
+
+}
+
+.shopname{
+ font-weight: bold;
+font-size:25px;
+position:absolute;
+top:110px;
+left:20px;
+font-family: "Lucida Handwriting";
+color:#34495e;
+}

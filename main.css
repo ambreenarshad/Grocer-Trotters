@@ -1,0 +1,100 @@
+body{
+background-color:#B2D3C2;
+}
+
+.logo{
+position:absolute;
+left:40px;
+
+}
+
+.veggie,.fruit,.meat,.frozen,.drinks,.snack{
+ border-radius: 25px;
+  padding: 20px; 
+  width: 250px;
+  height: 200px; 
+background-color:#dfece5;
+color:white;
+  
+}
+
+
+.veggie:hover,.fruit:hover,.meat:hover,.frozen:hover,.drinks:hover,.snack:hover
+{
+background-color:#6c9dac;
+ transition: transform .5s ease;
+transform: scale(1.1);
+}
+
+h5{
+font-size:30px;
+font-family: "Calibri", Helvetica, sans-serif;
+}
+
+.image{
+  position: relative;
+  text-align: center;
+  
+}
+
+.grey{
+position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+opacity:0.5;
+}
+
+.text{
+font-size:100px;
+color:white;
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image:hover{
+ transition: transform .5s ease;
+ transform: scale(1.02);
+}
+
+.btn-nav .button {
+  background-color: #34495e; 
+  border: 0px solid green;
+  color: white;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.btn-nav .button:hover {
+  background-color: #22303d;
+}
+
+footer{
+position:absolute;
+left:0;
+width:1348px;
+height:100px;
+background-color:#34495e;
+}
+
+.social{
+float:right;
+}
+
+.title{
+ font-weight: bold;
+font-size:25px;
+position:absolute;
+top:145px;
+left:20px;
+font-family: "Lucida Handwriting";
+color:#34495e;
+}

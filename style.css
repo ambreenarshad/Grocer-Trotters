@@ -1,0 +1,102 @@
+body
+{
+ background-color: #B2D3C2;
+ font-family: "Calibri", Helvetica, sans-serif;
+}
+
+.logo{
+position:relative;
+}
+
+.signup-box
+{
+ width: 360px;
+ height: 620px;
+ margin: auto;
+ background-color: #dfece5;
+ border: 1px solid grey;
+}
+.login-box
+{
+ width: 360px;
+ height: 280px;
+ margin: auto;
+ background-color: #dfece5;
+ border: 1px solid grey;
+}
+h1
+{
+ text-align: center;
+ padding-top: 15px;
+color:#2c3e50;
+}
+h4
+{
+ text-align: center;
+color:#2c3e50;
+}
+form
+{
+ width: 300px;
+ margin-left: 20px;
+}
+form label
+{
+ font-size: 18px;
+}
+form input
+{
+ width: 100%;
+ padding: 5px;
+ border: 1px solid gray;
+}
+input[type="submit"]
+{
+ width: 310px;
+ height: 30px;
+ margin-top: 5px;
+ background-color: #34495e;
+ color: white;
+}
+p
+{
+ text-align: center;
+ padding-top: 15px;
+ font-size: 15px;
+}
+.para2
+{
+ color: white;
+ margin-top: -5px;
+}
+.para2 a
+{
+ color: #0000ff;
+}
+
+.btn-nav .button {
+  background-color: #34495e; 
+  border: 0px solid green;
+  color: white;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.btn-nav .button:hover {
+  background-color: #22303d;
+}
+
+.title{
+ font-weight: bold;
+font-size:25px;
+position:absolute;
+top:130px;
+left:565px;
+font-family: "Lucida Handwriting";
+color:#34495e;
+}
